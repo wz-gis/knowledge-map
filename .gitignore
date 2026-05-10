@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Obsidian plugin runtime files
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# Obsidian trash
+.trash/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Logs
+*.log
+
+# Local dependency folders if snippets ever include examples
+node_modules/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
